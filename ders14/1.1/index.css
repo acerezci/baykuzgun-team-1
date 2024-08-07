@@ -1,0 +1,71 @@
+#app {
+  background-color: #0ecbf0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app .todolist-container {
+  background-color: #fff;
+  width: 900px;
+  height: 900px;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.todolist-container .title {
+  font-size: 42px;
+  color: #000;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 16px 0;
+}
+
+.input-container {
+  display: flex;
+  width: 85%;
+}
+
+.input-container input {
+  border: 1px solid #c1c1c1;
+  width: 100%;
+  outline: none;
+  padding: 12px;
+  font-size: 18px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-right: none;
+}
+
+.button-container {
+  width: 15%;
+}
+
+.button-container button {
+  width: 100%;
+  background-color: #0ecbf0;
+  color: #fff;
+  border: none;
+  padding: 13px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.todos-container {
+  width: 100%;
+}
+
+.todos-container {
+  font-size: 24px;
+}
+
+.todos-container tr:first-child {
+  border-bottom: 1px solid red;
+}
